@@ -14,16 +14,15 @@ export default function Analise() {
           </p>
         </div>
 
-        {/* IMAGEM GRÁFICA/TÁTICA */}
-        <div className="w-full h-[200px] relative bg-zinc-100 dark:bg-zinc-900 rounded-xl overflow-hidden flex items-center justify-center">
-          <Image
-            src="/favicon.ico" 
-            alt="Gráficos estatísticos e táticos da grande final"
-            width={100}
-            height={100}
-          />
-          <span className="absolute bottom-2 right-2 text-xs text-zinc-400">{"[Imagem: Quadro Tático / Estatísticas]"}</span>
-        </div>
+        
+          <div className="w-full h-[200px] relative rounded-xl overflow-hidden">
+            <Image
+              src="/campeao.jpeg"
+              alt="Gráficos estatísticos e táticos da grande final"
+              fill
+              className="object-contain"
+            />
+          </div>
 
         <div className="grid gap-8 md:grid-cols-2">
           <div className="flex flex-col gap-3">
@@ -41,7 +40,7 @@ export default function Analise() {
           </div>
         </div>
 
-        {/* O MOMENTO DO TÍTULO — CORRIGIDO COM SINTAXE SEGURA */}
+   
         <div className="mt-4 p-6 bg-zinc-50 dark:bg-zinc-900 rounded-lg text-center border border-zinc-200 dark:border-zinc-800">
           <span className="text-xs font-mono uppercase text-orange-500 font-bold">{"O Momento do Título (Série: 4-1)"}</span>
           <p className="text-lg font-medium text-black dark:text-zinc-200 mt-2 leading-7">

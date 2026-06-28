@@ -5,10 +5,10 @@ export default function Home() {
     <div className="flex flex-col flex-1 items-center justify-center">
       <main className="flex flex-1 w-full max-w-4xl flex-col items-center py-16 px-6 bg-white dark:bg-black sm:items-start gap-8">
         
-        {/* ESPAÇO DA IMAGEM PRINCIPAL (Ex: Logo da NBA ou foto do time com o troféu) */}
+    
         <div className="w-full h-[300px] relative bg-zinc-100 dark:bg-zinc-900 rounded-xl overflow-hidden flex items-center justify-center border border-zinc-200 dark:border-zinc-800">
           <Image
-            src="/NewYorkKnicks.png" // Substitua pelo seu arquivo de imagem principal
+            src="/NewYorkKnicks.png" 
             alt="New York Knicks Campeão 2026"
             width={400}
             height={150}

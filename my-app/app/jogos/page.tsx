@@ -5,27 +5,26 @@ export default function Jogos() {
     <div className="flex flex-col flex-1 items-center justify-center">
       <main className="flex flex-1 w-full max-w-4xl flex-col py-16 px-6 bg-white dark:bg-black gap-8">
         
-        <div className="flex flex-col gap-2">
-          <h1 className="text-3xl font-bold text-black dark:text-zinc-50">
-            {"Resumo Oficial das Finais NBA 2026"}
-          </h1>
-          <p className="text-zinc-600 dark:text-zinc-400">
-            {"Tabela de resultados e evolução da série histórica de 5 jogos disputada em junho de 2026."}
-          </p>
+      <div className="flex flex-col gap-2">
+        <h1 className="text-3xl font-bold text-black dark:text-zinc-50">
+          {"Resumo Oficial das Finais NBA 2026"}
+        </h1>
+        <p className="text-zinc-600 dark:text-zinc-400">
+          {"Tabela de resultados e evolução da série histórica de 5 jogos disputada em junho de 2026."}
+         </p>
         </div>
 
-        {/* IMAGEM DA PÁGINA */}
-        <div className="w-full h-[200px] relative bg-zinc-100 dark:bg-zinc-900 rounded-xl overflow-hidden flex items-center justify-center">
-          <Image
-            src="/favicon.ico" 
-            alt="Logotipo Oficial da NBA"
-            width={100}
-            height={100}
-            className="object-contain"
-          />
-        </div>
 
-        {/* COMPILADO EXATO COM BASE NA IMAGEM DA WIKIPÉDIA */}
+<div className="w-full h-[200px] relative rounded-xl overflow-hidden">
+  <Image
+    src="/times.webp"
+    alt="Gráficos estatísticos e táticos da grande final"
+    fill
+    className="object-contain"
+  />
+</div>
+
+
         <div className="grid gap-6 md:grid-cols-2">
           
           {/* JOGO 1 */}

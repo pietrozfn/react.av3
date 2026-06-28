@@ -14,7 +14,7 @@ export default function Jogadores() {
           </p>
         </div>
 
-        {/* ESPAÇO PARA UMA ÚNICA IMAGEM CONFIGURADA COMO spurs.webp */}
+      
         <div className="w-full h-[350px] relative bg-zinc-100 dark:bg-zinc-900 rounded-xl overflow-hidden flex items-center justify-center">
           <Image
             src="/spurs.webp" 
@@ -26,23 +26,23 @@ export default function Jogadores() {
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 mt-4">
-          {/* SEÇÃO SAN ANTONIO SPURS - WEMBANYAMA */}
+       
           <section className="flex flex-col gap-3 p-6 border border-zinc-200 dark:border-zinc-800 rounded-lg">
             <h2 className="text-2xl font-semibold text-black dark:text-zinc-50 border-l-4 border-zinc-400 pl-3">
               {"Victor Wembanyama (Spurs)"}
             </h2>
             <p className="text-zinc-600 dark:text-zinc-400 text-sm leading-6">
-              {"Escreva aqui sobre o impacto do jovem fenômeno francês Victor Wembanyama nas finais. Fale sobre sua estatura impressionante combinada com habilidades de armador, sua dominância na proteção de aro com tocos cruciais e como ele pontua de qualquer lugar da quadra, sendo o pesadelo defensivo do Knicks."}
+              {"Victor Wembanyama mostrou por que é considerado o rosto da próxima geração da NBA. Mesmo na derrota dos Spurs para os Knicks nas Finais de 2026, o francês dominou os dois lados da quadra, liderando San Antonio com médias de 26,0 pontos e 11,2 rebotes na série. Seu desempenho incluiu uma atuação de 32 pontos, 8 rebotes e 6 assistências na vitória do Jogo 3, mantendo os Spurs vivos na disputa. Apesar do título ter ficado com Nova York, Wembanyama deixou claro que seu talento e impacto o colocam entre os maiores jogadores da liga pelos próximos anos."}
             </p>
           </section>
 
-          {/* SEÇÃO NEW YORK KNICKS - JALEN BRUNSON */}
+       
           <section className="flex flex-col gap-3 p-6 border border-zinc-200 dark:border-zinc-800 rounded-lg">
             <h2 className="text-2xl font-semibold text-black dark:text-zinc-50 border-l-4 border-orange-500 pl-3">
               {"Jalen Brunson (Knicks)"}
             </h2>
             <p className="text-zinc-600 dark:text-zinc-400 text-sm leading-6">
-              {"Escreva aqui sobre o líder indiscutível e coração do New York Knicks. Detalhe a capacidade de Jalen Brunson de controlar o ritmo do jogo, infiltrar no garrafão contra os gigantes do Spurs e pontuar em momentos de extrema pressão. Ele é a mente tática que tenta desmontar o sistema defensivo adversário."}
+              {"Jalen Brunson foi o grande líder dos Knicks na campanha do título da NBA em 2026. Com atuações consistentes, controle absoluto do ritmo do jogo e um desempenho decisivo nos momentos mais importantes, o armador comandou Nova York rumo ao campeonato contra o San Antonio Spurs. Sua inteligência em quadra, capacidade de pontuar sob pressão e liderança fizeram dele o principal nome das Finais, consolidando seu lugar entre os melhores jogadores da liga e como o grande símbolo da conquista histórica dos Knicks."}
             </p>
           </section>
         </div>
